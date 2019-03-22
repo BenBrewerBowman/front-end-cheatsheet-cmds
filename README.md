@@ -18,3 +18,8 @@
 
 ##### Test everything with watching for changes
 `jest src/components/SampleComponent.test.tsx -t="part of a test's name"`
+
+## NPM packages
+
+#### Promote new npm package
+`yarn version --minor && git push -u origin branch-name && git push -u origin  branch-name --tags`
