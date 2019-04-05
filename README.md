@@ -22,4 +22,9 @@
 ## NPM packages
 
 #### Promote new npm package
-`yarn version --minor && git push -u origin branch-name && git push -u origin  branch-name --tags`
+`yarn version --minor && git push --tags`
+
+## Yarn
+#### Link local npm packages
+in local package: `yarn build && cd dist && yarn link`<br/>
+in project you want to link to npm package: `yarn link <insert npm package name here>`
